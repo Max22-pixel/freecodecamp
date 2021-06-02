@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400;1,600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff00;
+  font-family: "Open Sans", sans-serif;
+}
+#main {
+  text-align: center;
+}
+#title {
+  color: #f0f0e9;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+#title-name {
+  color: #eeeee3;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#title-bar {
+  width: 1350px;
+  background-color: #292828;
+}
+#img-div {
+  text-align: center;
+}
+#image {
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 100%;
+}
+#img-caption {
+  color: rgba(248, 241, 241, 0.726);
+  margin: 0 150px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
+  font-size: 1rem;
+}
+.nav-bar {
+  width: 1350px;
+  height: 70px;
+  background-color: #0d0d0df3;
+  display: flex;
+  font-size: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.fa-bars {
+  color: white;
+}
+.text-bar {
+  color: white;
+}
+hr {
+  height: 0.1rem;
+  background-color: rgba(255, 217, 0, 0.705);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+h2 {
+  text-align: left;
+  color: rgba(255, 217, 0, 0.705);
+  margin-left: 3rem;
+}
+.container {
+  text-align: left;
+  margin-left: 1.5rem;
+}
+.image-container {
+  width: 400px;
+  height: 150px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.image-container:hover {
+  transform: scale(1.1);
+}
+ul {
+  color: white;
+  text-align: left;
+  margin: 0 9.5rem;
+}
+#tribute-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+li {
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+footer {
+  background-color: #292828;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  #tribute-info {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+}
